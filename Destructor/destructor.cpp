@@ -7,7 +7,7 @@ class employee{
 	string *s;
 	int *i;
 	
-	employee(int intggr,string str)
+	employee(int intgr,string str)
 	{
 		//Let's allocate pointers to memory.
 		s=new string;
@@ -15,7 +15,7 @@ class employee{
 		
 		
 		*s=str;
-		*i=intggr;
+		*i=intgr;
 	}
 	//Destructor method
 	~employee(){
